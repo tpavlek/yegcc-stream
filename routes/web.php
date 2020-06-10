@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function() { return redirect()->route('stream.yegcc'); });
-Route::get('yegcc', 'StreamController@yegcc')->name('stream.yegcc');
+Route::get('/', 'StreamController@yegcc')->name('stream.yegcc');
 Route::get('epsb', 'StreamController@epsb')->name('stream.epsb');
 
