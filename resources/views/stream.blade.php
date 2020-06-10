@@ -23,8 +23,8 @@
     <meta name="twitter:description" content="Public meetings are better with friends" />
     <meta property="og:description" content="Public meetings are better with friends"/>
 
-    <meta name="twitter:image" content="/whos-that-councillor.png" />
-    <meta property="og:image" content="/whos-that-councillor.png" />
+    <meta name="twitter:image" content="https://yegcc.stream/whos-that-councillor.png" />
+    <meta property="og:image" content="https://yegcc.stream/whos-that-councillor.png" />
 </head>
 <body>
 <div class="bg-gray-900 flex h-screen w-screen">
