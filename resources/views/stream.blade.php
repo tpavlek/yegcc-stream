@@ -13,6 +13,18 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:site" content="@troypavlek" />
+
+    <meta name="twitter:title" content="Stream Edmonton City Council Meetings with Chat!" />
+    <meta property="og:title" content="Stream Edmonton City Council Meetings with Chat!"/>
+
+    <meta name="twitter:description" content="Public meetings are better with friends" />
+    <meta property="og:description" content="Public meetings are better with friends"/>
+
+    <meta name="twitter:image" content="/whos-that-councillor.png" />
+    <meta property="og:image" content="/whos-that-councillor.png" />
 </head>
 <body>
 <div class="bg-gray-900 flex h-screen w-screen">
