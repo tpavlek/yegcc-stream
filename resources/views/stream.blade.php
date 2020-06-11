@@ -34,7 +34,12 @@
             <a href="{{ \Illuminate\Support\Facades\URL::route('stream.yegcc') }}" @if ($stream->isYegcc()) class="font-bold" @endif>#yegcc</a> |
             <a href="{{ \Illuminate\Support\Facades\URL::route('stream.epsb') }}" @if ($stream->isEpsb()) class="font-bold" @endif>EBSB</a>
         </div>
-        <iframe width="100%" height="80%" src="https://www.youtube.com/embed/live_stream?channel={{ $stream->youtube_id }}&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        @if ($stream->isYegcc())
+            <iframe width="100%" height="80%" src="http://councilontheweb.edmonton.ca/#cc"></iframe>
+        @else
+            <iframe width="100%" height="80%" src="https://www.youtube.com/embed/live_stream?channel={{ $stream->youtube_id }}&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        @endif
+
     </div>
     <div class="w-1/3">
         <widgetbot
